@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="Tagmeo">
+    <description>Tagmeo Coding Standards</description>
+    <exclude-pattern>vendor/</exclude-pattern>
+    <arg value="-colors" />
+    <arg value="s" />
+    <rule ref="PSR2" />
+    <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
+        <exclude-pattern>TagmeoValetDriver.php</exclude-pattern>
+    </rule>
+</ruleset>

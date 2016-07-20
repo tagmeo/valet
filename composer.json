@@ -1,0 +1,14 @@
+{
+  "name": "tagmeo/valet",
+  "description": "Custom driver for Laravel Valet.",
+  "keywords": [
+    "laravel", "moteo", "tagmeo", "valet"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6"
+  },
+  "bin": [
+    "tagmeo"
+  ]
+}
